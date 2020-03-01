@@ -27,7 +27,7 @@ public class q10828 {
                     if (size == 0) {
                         writer.write("-1\n");
                     } else {
-                        writer.write(elementData[size] + "\n");
+                        writer.write(elementData[size-1] + "\n");
                         size--;
                     }
                     break;
@@ -45,11 +45,10 @@ public class q10828 {
                     if (size == 0) {
                         writer.write("-1\n");
                     } else {
-                        writer.write(elementData[size]+"\n");
+                        writer.write(elementData[size-1]+"\n");
                     }
                     break;
             }
-            writer.flush();
         }
         reader.close();
         writer.close();
