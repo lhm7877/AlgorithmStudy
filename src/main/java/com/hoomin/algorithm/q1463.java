@@ -68,7 +68,7 @@ public class q1463 {
             memo[n] = getCount(n / 3) + 1;
         }
 
-        if (n % 2 == 0) {K
+        if (n % 2 == 0) {
             temp = getCount(n / 2) + 1;
             if( temp < memo[n] || memo[n] == 0) {
                 memo[n] = temp;
