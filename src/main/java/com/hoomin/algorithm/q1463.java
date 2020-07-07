@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class q1463 {
     private static int[] memo;
     public static void main(String[] args) {
-        for (int i = 1; i < 100000; i++) {
-            System.out.println(i);
-            test1(i);
-            test2(i);
-        }
+//        for (int i = 1; i < 100000; i++) {
+//            System.out.println(i);
+            test1(10);
+            test2(10);
+//        }
         for (int i = 0; i < memo.length; i++) {
             if (d[i] != memo[i]) {
                 System.out.println(i);
