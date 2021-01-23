@@ -1,3 +1,5 @@
+package com.hoomin.algorithm;
+
 import org.junit.Test;
 
 import java.io.BufferedReader;

@@ -8,8 +8,8 @@ public class q1463 {
     public static void main(String[] args) {
 //        for (int i = 1; i < 100000; i++) {
 //            System.out.println(i);
-            test1(10);
-            test2(10);
+//            test1(2);
+            test2(2);
 //        }
         for (int i = 0; i < memo.length; i++) {
             if (d[i] != memo[i]) {
