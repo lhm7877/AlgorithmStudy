@@ -2,6 +2,14 @@ package com.hoomin.algorithm;
 
 import java.util.Scanner;
 
+/**
+ * W, B를 true, false로 바꾸자
+ * string array는 true, false 반복이니 하나의 boolean을 스위칭해가며 풀 수 있다.
+ * 체스판 다음줄은 boolean값을 스위칭만 하면 된다.
+ *
+ * @author : lhm0805
+ * @date : 2021. 04. 07. 오전 10:24:14
+ */
 public class 체스판_다시_칠하기 {
     public static void main(String[] args) {
         String[] answer = {"W","B","W","B","W","B","W","B"};
