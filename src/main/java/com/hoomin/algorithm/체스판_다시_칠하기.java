@@ -33,10 +33,12 @@ public class 체스판_다시_칠하기 {
                 for (int i = 0; i < 8; i++) {
                     int rowCount = 0;
                     for (int j = 0; j < 8; j++) {
+                        System.out.print(board[x+i][y+j] + " ");
                         if (answer[j].equals(board[x+i][y+j])) {
                             rowCount++;
                         }
                     }
+                    System.out.println(rowCount + " " + (8 - rowCount));
                     if (flag) {
                         matrixCount1 += rowCount;
                         matrixCount2 += (8 - rowCount);
@@ -46,6 +48,8 @@ public class 체스판_다시_칠하기 {
                     }
                     flag = !flag;
                 }
+                System.out.println(matrixCount1 + " " + matrixCount2);
+                System.out.println();
                 result1 = Math.min(result1, matrixCount1);
                 result2 = Math.min(result2, matrixCount2);
             }
