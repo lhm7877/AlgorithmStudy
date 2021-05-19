@@ -1,4 +1,4 @@
-package com.hoomin.algorithm;
+package com.hoomin.algorithm.class2;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
